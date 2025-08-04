@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Yunisa</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .navbar {
+        background-color: #222;
+      }
+      .navbar-nav .nav-link {
+        color: white !important;
+        margin: 0 10px;
+      }
+      .navbar-nav .nav-link.active {
+        color: #f92672 !important;
+      }
+      .hero {
+        background-image: url("https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1500&q=80");
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 120px 30px;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 48px;
+        font-weight: bold;
+      }
+      .hero p {
+        font-size: 20px;
+        margin-bottom: 30px;
+      }
+      .btn-primary {
+        background-color: #f92672;
+        border: none;
+        padding: 10px 25px;
+        font-weight: bold;
+      }
+      section {
+        padding: 60px 30px;
+      }
+      .section-title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .about-img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+      }
+      #about {
+        background-color: #fbeaff;
+      }
+      #info {
+        background-color: #ffe9e9;
+      }
+      #portfolio {
+        background-color: #e3f6f5;
+      }
+      #gallery {
+        background-color: #fff3cd;
+      }
+      #social {
+        background-color: #f0e8ff;
+      }
+      #contact {
+        background-color: #d0f4de;
+      }
+      .hobi-box {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+      }
+      .gallery-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        transition: transform 0.3s;
+      }
+      .gallery-img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Yunisa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">Informasi Pribadi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Hobi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Galeri</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social">Sosial Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="hero">
+      <h1>Hi, Saya Yunisha Ramadhani</h1>
+      <p>SMKN 1 KAWALI</p>
+      <a href="#contact" class="btn btn-primary">Kontak Saya</a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center">
+            <img src="img.ynn.jpg" alt="Yunisa" class="about-img" />
+          </div>
+          <div class="col-md-8">
+            <h2 class="section-title">Tentang Saya</h2>
+            <p>
+              Halo! Saya Yunisha Ramadhani, siswi jurusan RPL [Rekayasa
+              Perangkat Lunak] yang sedang belajar memahami dunia teknologi dan
+              juga memahami diri sendiri. Saya punya impian ingin menjadi
+              programer dan ingin menjadi penari hebat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informasi Pribadi -->
+    <section id="info">
+      <div class="container">
+        <h2 class="section-title text-center">Informasi Pribadi</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>Nama:</strong> Yunisha Ramadhani
+              </li>
+              <li class="list-group-item">
+                <strong>Tanggal Lahir:</strong> 03 September 2008
+              </li>
+              <li class="list-group-item">
+                <strong>Alamat:</strong> Ciamis, Jawa Barat
+              </li>
+              <li class="list-group-item">
+                <strong>Sekolah:</strong> SMK Negeri 1 Kawali
+              </li>
+              <li class="list-group-item">
+                <strong>Karakter:</strong> Disiplin, ceria, bertanggung jawab
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobi -->
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section-title text-center">Hobi Saya</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="hobi-box">
+              <p>💃 Menari</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="hobi-box">
+              <p>📱 Scroll Sosmed</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="hobi-box">
+              <p>🎵 Dengar Musik</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="section-title text-center">Galeri</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img.narii.jpg" class="gallery-img" alt="Galeri 1" />
+          </div>
+          <div class="col-md-4">
+            <img src="img.org.jpg" class="gallery-img" alt="Galeri 2" />
+          </div>
+          <div class="col-md-4">
+            <img src="img.ppp.jpg" class="gallery-img" alt="Galeri 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sosial Media -->
+    <section id="social">
+      <div class="container">
+        <h2 class="section-title text-center">Sosial Media</h2>
+        <div class="text-center">
+          <p>
+            📸 Instagram:
+            <a href="https://instagram.com/_ynshrmdhnn" target="_blank"
+              >@_ynshrmdhnn</a
+            >
+          </p>
+          <p>🎵 TikTok: <a href="#">@_ynsharmdhnn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title text-center">Kontak Saya</h2>
+        <div class="text-center">
+          <p>📧 Email: yunisarmdhni71@gmail.com</p>
+          <p>📱 WhatsApp: 0857-9594-7823</p>
+          <p>📍 Alamat: Nanggela-Kawali, Jawa Barat</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
